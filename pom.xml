@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent POM contains all general settings for building and releasing of all JEAF projects. -->
+	<parent>
+		<groupId>com.anaptecs.jeaf</groupId>
+		<artifactId>jeaf-project-parent</artifactId>
+		<version>1.0.20</version>
+	</parent>
+
+	<artifactId>jeaf-module-project-parent</artifactId>
+	<version>1.6.4-SNAPSHOT</version>
+
+
+	<packaging>pom</packaging>
+	<name>JEAF Module Project Parent</name>
+	<description>Maven project defines properties, settings and version of libraries, plugins and modules that are used by all JEAF module projects.</description>
+	<url>https://github.com/anaptecs/jeaf</url>
+
+	<scm>
+		<connection>scm:git:https://bitbucket.org/anaptecs/jeaf-module-project-parent.git</connection>
+		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-module-project-parent.git</developerConnection>
+		<url>https://bitbucket.org/anaptecs/jeaf-module-project-parent</url>
+	</scm>
+
+	<properties>
+		<!-- Properties for versions of JEAF Maven Plugins -->
+		<maven.jeaf-plugin.version>1.6.1</maven.jeaf-plugin.version>
+		<maven.jeaf-generator-plugin.version>1.6.1</maven.jeaf-generator-plugin.version>
+
+		<!-- Versions of dependent libraries -->
+		<junit.version>5.5.2</junit.version>
+		<junit.platform.version>1.5.2</junit.platform.version>
+		<junit3.version>3.8.2</junit3.version>
+
+		<!-- Logging frameworks -->
+		<commons-logging.version>1.2</commons-logging.version>
+		<log4j.version>2.14.1</log4j.version>
+		<slf4j-api.version>1.7.31</slf4j-api.version>
+		
+
+		<!-- JSON libraries -->
+		<google.gson.version>2.8.6</google.gson.version>
+
+		<!-- http client libraries -->
+		<apache.httpclient5.version>5.0.3</apache.httpclient5.version>
+		<okhttp.version>4.9.1</okhttp.version>
+		
+		<!-- YAML library https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+		<snakeyaml.version>1.26</snakeyaml.version>
+
+		<!-- JEE libraries -->
+		<javaee-api.version>8.0</javaee-api.version>
+		<servlet-api.version>3.1.0</servlet-api.version>
+		<jpa2-api.version>1.0.1.Final</jpa2-api.version>
+		<java.mail.version>1.6.0</java.mail.version>
+		<javax.el.version>3.0.1-b11</javax.el.version>
+		<javax.ws.rs.version>2.1</javax.ws.rs.version>
+
+		<!-- Java Validation -->
+		<validation-api.version>2.0.1.Final</validation-api.version>
+		<hibernate-validator.version>6.0.22.Final</hibernate-validator.version>
+
+		<!-- JDBC Drivers -->
+		<mysql.connector.version>8.0.15</mysql.connector.version>
+
+		<!-- Wildfly libraries -->
+		<wildfly.ejb-client-bom.version>19.0.1.Final</wildfly.ejb-client-bom.version>
+
+		<!-- Hibernate settings -->
+		<hibernate5.version>5.3.7.Final</hibernate5.version>
+		<jeaf.persistence.service.provider>jeaf-hibernate5-persistence-service-provider-impl</jeaf.persistence.service.provider>
+		<jeaf.hibernate.runtime>jeaf-hibernate5-jse-runtime</jeaf.hibernate.runtime>
+
+		<!-- Stormpot object pool -->
+		<stormpot.version>2.4.2</stormpot.version>
+		
+		<!-- JSoup http parser -->
+		<jsoup.version>1.13.1</jsoup.version>
+		
+		<!-- Micrometer (Monitoring Facade) -->
+		<micrometer.api.version>1.7.0</micrometer.api.version>
+		
+		<!-- New Relic Monitoring -->
+		<newrelic.api.version>7.0.1</newrelic.api.version>
+
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.anaptecs.jeaf.generator</groupId>
+				<artifactId>jeaf-generator-maven-plugin</artifactId>
+				<version>${maven.jeaf-generator-plugin.version}</version>
+			</plugin>
+
+			<plugin>
+				<groupId>com.anaptecs.jeaf.maven</groupId>
+				<artifactId>jeaf-maven-plugin</artifactId>
+				<version>${maven.jeaf-plugin.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
