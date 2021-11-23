@@ -78,7 +78,7 @@
 		<stormpot.version>2.4.2</stormpot.version>
 		
 		<!-- JSoup http parser -->
-		<jsoup.version>1.13.1</jsoup.version>
+		<jsoup.version>1.14.3</jsoup.version>
 		
 		<!-- Micrometer (Monitoring Facade) -->
 		<micrometer.api.version>1.7.0</micrometer.api.version>
