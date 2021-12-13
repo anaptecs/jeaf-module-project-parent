@@ -37,8 +37,8 @@
 
 		<!-- Logging frameworks -->
 		<commons-logging.version>1.2</commons-logging.version>
-		<log4j.version>2.14.1</log4j.version>
-		<slf4j-api.version>1.7.31</slf4j-api.version>
+		<log4j.version>2.15.0</log4j.version>
+		<slf4j-api.version>1.7.32</slf4j-api.version>
 		
 
 		<!-- JSON libraries -->
