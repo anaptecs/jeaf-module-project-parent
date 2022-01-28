@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.anaptecs.jeaf</groupId>
 		<artifactId>jeaf-project-parent</artifactId>
-		<version>1.0.21</version>
+		<version>1.0.22-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>jeaf-module-project-parent</artifactId>
@@ -92,7 +92,7 @@
 		<jackson.version>2.13.0</jackson.version>
 		<jersey.version>2.35</jersey.version>
 		
-
+		<swagger.annotations.version>2.1.11</swagger.annotations.version>
 	</properties>
 
 	<build>
