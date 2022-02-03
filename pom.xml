@@ -89,7 +89,7 @@
 		<!-- Please be aware that Jersey and Jackson version must match together. Current Jackson version that is 
 		     bundled with Jersey 2.35 causes NoClassDefFoundError in startup of JEAF Workload Proxy. 
 		 -->
-		<jackson.version>2.13.0</jackson.version>
+		<jackson.version>2.13.1</jackson.version>
 		<jersey.version>2.35</jersey.version>
 		
 		<swagger.annotations.version>2.1.11</swagger.annotations.version>
