@@ -78,7 +78,7 @@
 		<jetty.client.version>9.4.46.v20220331</jetty.client.version>
 		
 		<!-- Mock Server Version -->
-		<mock.server.version>5.11.2</mock.server.version>
+		<mock.server.version>5.13.2</mock.server.version>
 
 		<!-- Stormpot object pool -->
 		<stormpot.version>2.4.2</stormpot.version>
