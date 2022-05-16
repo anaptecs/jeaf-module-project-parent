@@ -74,8 +74,8 @@
 		<jeaf.hibernate.runtime>jeaf-hibernate5-jse-runtime</jeaf.hibernate.runtime>
 
 		<!-- Jetty versions -->
-		<jetty.server.version>9.4.44.v20210927</jetty.server.version>
-		<jetty.client.version>9.4.44.v20210927</jetty.client.version>
+		<jetty.server.version>9.4.46.v20220331</jetty.server.version>
+		<jetty.client.version>9.4.46.v20220331</jetty.client.version>
 		
 		<!-- Mock Server Version -->
 		<mock.server.version>5.11.2</mock.server.version>
