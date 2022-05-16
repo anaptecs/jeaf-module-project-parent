@@ -60,7 +60,7 @@
 
 		<!-- Java Validation -->
 		<validation-api.version>2.0.1.Final</validation-api.version>
-		<hibernate-validator.version>6.2.1.Final</hibernate-validator.version>
+		<hibernate-validator.version>6.2.3.Final</hibernate-validator.version>
 
 		<!-- JDBC Drivers -->
 		<mysql.connector.version>8.0.15</mysql.connector.version>
@@ -73,12 +73,22 @@
 		<jeaf.persistence.service.provider>jeaf-hibernate5-persistence-service-provider-impl</jeaf.persistence.service.provider>
 		<jeaf.hibernate.runtime>jeaf-hibernate5-jse-runtime</jeaf.hibernate.runtime>
 
+		<!-- Jetty versions -->
+		<jetty.server.version>9.4.44.v20210927</jetty.server.version>
+		<jetty.client.version>9.4.44.v20210927</jetty.client.version>
+		
+		<!-- Mock Server Version -->
+		<mock.server.version>5.11.2</mock.server.version>
+
 		<!-- Stormpot object pool -->
 		<stormpot.version>2.4.2</stormpot.version>
 		
 		<!-- JSoup http parser -->
 		<jsoup.version>1.15.1</jsoup.version>
 		
+		<!-- Resilience4J -->
+		<resilience4j.version>1.7.1</resilience4j.version>
+
 		<!-- Micrometer (Monitoring Facade) -->
 		<micrometer.api.version>1.9.0</micrometer.api.version>
 		
