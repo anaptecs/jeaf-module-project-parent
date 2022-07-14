@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.anaptecs.jeaf</groupId>
 		<artifactId>jeaf-project-parent</artifactId>
-		<version>1.0.23</version>
+		<version>1.0.24</version>
 	</parent>
 
 	<artifactId>jeaf-module-project-parent</artifactId>
@@ -27,7 +27,7 @@
 
 	<properties>
 		<!-- Properties for versions of JEAF Maven Plugins -->
-		<maven.jeaf-plugin.version>1.6.10</maven.jeaf-plugin.version>
+		<maven.jeaf-plugin.version>1.6.12</maven.jeaf-plugin.version>
 		<maven.jeaf-generator-plugin.version>1.6.53</maven.jeaf-generator-plugin.version>
 
 		<!-- Versions of dependent libraries -->
