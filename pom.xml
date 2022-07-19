@@ -67,6 +67,8 @@
 
 		<!-- Wildfly libraries -->
 		<wildfly.ejb-client-bom.version>19.0.1.Final</wildfly.ejb-client-bom.version>
+		<jboss-rmi-api.version>1.0.6.Final</jboss-rmi-api.version>
+		<glassfish-corba-orb.version>4.2.4</glassfish-corba-orb.version>
 
 		<!-- Hibernate settings -->
 		<hibernate5.version>5.3.7.Final</hibernate5.version>
