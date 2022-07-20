@@ -57,6 +57,7 @@
 		<java.mail.version>1.6.0</java.mail.version>
 		<javax.el.version>3.0.1-b11</javax.el.version>
 		<javax.ws.rs.version>2.1</javax.ws.rs.version>
+		<javax.annotation-api.version>1.3.2</javax.annotation-api.version>
 
 		<!-- Java Validation -->
 		<validation-api.version>2.0.1.Final</validation-api.version>
