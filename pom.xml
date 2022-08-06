@@ -67,7 +67,8 @@
 		<mysql.connector.version>8.0.15</mysql.connector.version>
 
 		<!-- Wildfly libraries -->
-		<wildfly.ejb-client-bom.version>19.0.1.Final</wildfly.ejb-client-bom.version>
+		<wildfly.version>20.0.1.Final</wildfly.version>
+		<wildfly.ejb-client-bom.version>20.0.1.Final</wildfly.ejb-client-bom.version>
 		<jboss-rmi-api.version>1.0.6.Final</jboss-rmi-api.version>
 		<glassfish-corba-orb.version>4.2.4</glassfish-corba-orb.version>
 		
