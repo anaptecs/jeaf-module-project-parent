@@ -28,7 +28,7 @@
 	<properties>
 		<!-- Properties for versions of JEAF Maven Plugins -->
 		<maven.jeaf-plugin.version>1.6.17</maven.jeaf-plugin.version>
-		<maven.jeaf-generator-plugin.version>1.6.55</maven.jeaf-generator-plugin.version>
+		<maven.jeaf-generator-plugin.version>1.6.57</maven.jeaf-generator-plugin.version>
 
 		<!-- Versions of dependent libraries -->
 		<junit.version>5.8.2</junit.version>
