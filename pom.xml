@@ -48,7 +48,7 @@
 		<okhttp.version>4.9.3</okhttp.version>
 		
 		<!-- YAML library https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
-		<snakeyaml.version>1.30</snakeyaml.version>
+		<snakeyaml.version>1.32</snakeyaml.version>
 
 		<!-- JEE libraries -->
 		<javaee-api.version>8.0</javaee-api.version>
