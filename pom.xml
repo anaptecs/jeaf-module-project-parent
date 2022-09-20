@@ -110,6 +110,10 @@
 		<jersey.version>2.35</jersey.version>
 		<jakarta.ws.rs.version>2.1.6</jakarta.ws.rs.version>
 		
+		<!-- Spring Framework -->
+		<spring.core.version>5.3.23</spring.core.version>
+		
+		<!-- Swagger -->
 		<swagger.annotations.version>2.1.11</swagger.annotations.version>
 	</properties>
 
