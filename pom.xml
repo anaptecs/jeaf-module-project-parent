@@ -113,6 +113,9 @@
 		<!-- Spring Framework -->
 		<spring.core.version>5.3.23</spring.core.version>
 		
+		<!-- Zalando Problem library -->
+		<zalando.problem.version>0.23.0</zalando.problem.version>
+		
 		<!-- Swagger -->
 		<swagger.annotations.version>2.1.11</swagger.annotations.version>
 	</properties>
