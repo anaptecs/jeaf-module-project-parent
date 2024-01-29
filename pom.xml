@@ -19,9 +19,9 @@
 	<url>https://www.anaptecs.de/jeaf</url>
 
 	<scm>
-		<connection>scm:git:https://bitbucket.org/anaptecs/jeaf-module-project-parent.git</connection>
+		<connection>scm:git:https://github.com/anaptecs/jeaf-module-project-parent.git</connection>
 		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-module-project-parent.git</developerConnection>
-		<url>https://bitbucket.org/anaptecs/jeaf-module-project-parent</url>
+		<url>https://github.com/anaptecs/jeaf-module-project-parent.git</url>
 	    <tag>HEAD</tag>
 	</scm>
 
