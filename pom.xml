@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.anaptecs.jeaf</groupId>
 		<artifactId>jeaf-project-parent</artifactId>
-		<version>1.0.32</version>
+		<version>1.0.33-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>jeaf-module-project-parent</artifactId>
@@ -20,7 +20,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/anaptecs/jeaf-module-project-parent.git</connection>
-		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-module-project-parent.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-module-project-parent.git</developerConnection>
 		<url>https://github.com/anaptecs/jeaf-module-project-parent.git</url>
 	    <tag>HEAD</tag>
 	</scm>
