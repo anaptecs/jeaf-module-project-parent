@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.anaptecs.jeaf</groupId>
 		<artifactId>jeaf-project-parent</artifactId>
-		<version>1.7.0</version>
+		<version>2.0.0</version>
 	</parent>
 
 	<artifactId>jeaf-module-project-parent</artifactId>
@@ -22,7 +22,7 @@
 		<connection>scm:git:https://github.com/anaptecs/jeaf-module-project-parent.git</connection>
 		<developerConnection>scm:git:https://github.com/anaptecs/jeaf-module-project-parent.git</developerConnection>
 		<url>https://github.com/anaptecs/jeaf-module-project-parent</url>
-	    <tag>HEAD</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
@@ -45,7 +45,7 @@
 		<!-- Logging frameworks -->
 		<commons-logging.version>1.2</commons-logging.version>
 		<log4j.version>2.20.0</log4j.version>
-		<slf4j-api.version>1.7.36</slf4j-api.version>		
+		<slf4j-api.version>1.7.36</slf4j-api.version>
 
 		<!-- JSON libraries -->
 		<google.gson.version>2.10.1</google.gson.version>
@@ -111,15 +111,15 @@
 		
 		<!-- Jersey is used as REST library -->
 		<!-- Please be aware that Jersey and Jackson version must match together. Current Jackson version that is 
-		     bundled with Jersey 2.35 causes NoClassDefFoundError in startup of JEAF Workload Proxy. 
+			 bundled with Jersey 2.35 causes NoClassDefFoundError in startup of JEAF Workload Proxy. 
 		 -->
 		<jersey.version>2.35</jersey.version>
 		
-        <jackson2.version>2.15.2</jackson2.version>
-        <jackson.databind.nullable.version>0.2.6</jackson.databind.nullable.version>
-        
-        <jackson3.version>3.0.3</jackson3.version>
-        
+		<jackson2.version>2.15.2</jackson2.version>
+		<jackson.databind.nullable.version>0.2.6</jackson.databind.nullable.version>
+
+		<jackson3.version>3.0.3</jackson3.version>
+
 		<!-- Kryo version -->
 		<kryo.version>5.3.0</kryo.version>
 		
